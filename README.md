@@ -29,12 +29,12 @@ The folder `results/epsilon_delta_curve/` contains PDFs that summarize privacy a
   Characterizes the **overall privacy level** in the 2020 Census DHC File. (corresponding to the right panel of **Figure 2**).
 
 - **`epsilon_delta_curve_path_main_to_main.pdf`**  
-  The privacy level of the composed mechanism [M_0, M_0].  
+  The privacy level of the composed mechanism [\tilde{M}_0, \tilde{M}_0].  
   (corresponding to the enlarged panel in the lower-right corner of **Figure 4**).
 
 - **`epsilon_delta_curve_path_sensitivity.pdf`**  
   Characterizes the **percentage difference** between the privacy level of  
-  [M_0, M_0] and the **overall privacy level**.
+  [\tilde{M}_0, \tilde{M}_0] and the **overall privacy level**.
 
 ## Trade-off curves
 
