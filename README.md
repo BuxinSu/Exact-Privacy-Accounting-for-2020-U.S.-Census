@@ -26,15 +26,15 @@ It provides code and precomputed results for computing **exact privacy accountin
 The folder `results/epsilon_delta_curve/` contains PDFs that summarize privacy accounting results:
 
 - **`epsilon_delta_curve_all_path_max.pdf`**  
-  Characterizes the **overall privacy level** in the 2020 Census DHC File.
+  Characterizes the **overall privacy level** in the 2020 Census DHC File. (corresponding to the right panel of **Figure 2**).
 
 - **`epsilon_delta_curve_path_main_to_main.pdf`**  
-  The privacy level of the composed mechanism **\([\widetilde{\mathbf{M}}_0, \widetilde{\mathbf{M}}_0]\)**  
+  The privacy level of the composed mechanism [M_0, M_0].  
   (corresponding to the enlarged panel in the lower-right corner of **Figure 4**).
 
 - **`epsilon_delta_curve_path_sensitivity.pdf`**  
   Characterizes the **percentage difference** between the privacy level of  
-  **\([\widetilde{\mathbf{M}}_0, \widetilde{\mathbf{M}}_0]\)** and the **overall privacy level**.
+  [M_0, M_0] and the **overall privacy level**.
 
 ## Trade-off curves
 
