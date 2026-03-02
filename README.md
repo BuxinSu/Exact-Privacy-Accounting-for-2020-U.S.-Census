@@ -23,7 +23,7 @@ It provides code and precomputed results for computing exact privacy accounting 
 
 ## Key result files 
 
-### epsilon-delta curves
+### Epsilon-delta curves
 
 The folder `results/epsilon_delta_curve/` contains PDFs that summarize privacy accounting results:
 
