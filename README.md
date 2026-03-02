@@ -4,7 +4,7 @@ This repository accompanies the project/paper:
 
 **“A Sieve-Accelerated Quadrature Method for Exact Privacy Accounting in the 2020 U.S. Decennial Census.”**
 
-It provides code and precomputed results for computing **exact privacy accounting** (e.g., ε–δ curves and trade-off curves) for compositions of mechanisms used in the **2020 Census DHC File**, with an emphasis on efficient, high-precision computation.
+It provides code and precomputed results for computing **exact privacy accounting** (e.g., epsilon-delta curves and trade-off curves) for compositions of mechanisms used in the **2020 Census DHC File**, with an emphasis on efficient, high-precision computation.
 
 ## Repository structure
 
@@ -17,11 +17,11 @@ It provides code and precomputed results for computing **exact privacy accountin
 - **`results/`**  
   Precomputed outputs and figures.
   - **`results/epsilon_delta_curve/`**  
-    ε–δ curves characterizing privacy levels for different compositions/paths.
+    Epsilon-delta curves characterizing privacy levels for different compositions/paths.
   - **`results/trade_off_curve/`**  
     Trade-off curves organized using the same rationale.
 
-## Key result files (ε–δ curves)
+## Key result files (epsilon-delta curves)
 
 The folder `results/epsilon_delta_curve/` contains PDFs that summarize privacy accounting results:
 
@@ -38,16 +38,6 @@ The folder `results/epsilon_delta_curve/` contains PDFs that summarize privacy a
 
 ## Trade-off curves
 
-We organize trade-off curves in **`results/trade_off_curve/`** following a similar rationale to the ε–δ curve outputs.
+We organize trade-off curves in **`results/trade_off_curve/`** following a similar rationale to the epsilon-delta curve outputs.
 
-## Getting started
 
-### Requirements
-This repository is intended to be run with **Python 3**.  
-(If you add a `requirements.txt` later, list dependencies there.)
-
-### Quick run
-Browse the scripts in `Code/` and run the relevant entry points to reproduce figures.
-For example, if a script is provided for trade-off curves:
-```bash
-python Code/trade_off_curve.py
