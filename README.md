@@ -21,7 +21,9 @@ It provides code and precomputed results for computing exact privacy accounting 
   - **`results/trade_off_curve/`**  
     Trade-off curves organized using the same rationale.
 
-## Key result files (epsilon-delta curves)
+## Key result files 
+
+### epsilon-delta curves
 
 The folder `results/epsilon_delta_curve/` contains PDFs that summarize privacy accounting results:
 
@@ -35,7 +37,7 @@ The folder `results/epsilon_delta_curve/` contains PDFs that summarize privacy a
   Characterizes the percentage difference between the privacy level of  
   [\tilde{M}_0, \tilde{M}_0] and the overall privacy level (corresponding to the right panel of Figure 5).
 
-## Trade-off curves
+### Trade-off curves
 
 We organize trade-off curves in **`results/trade_off_curve/`** following a similar rationale to the epsilon-delta curve outputs.
 
