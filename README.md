@@ -12,7 +12,7 @@ It provides code and precomputed results for computing exact privacy accounting 
   Core implementation and scripts for generating privacy accounting outputs and plots.
 
 - **`privacy budget allocation/`**  
-  Records the privacy budget allocations $\rho_i$ used in the 2020 Census DHC File.
+  Records the privacy budget allocations \rho_i used in the 2020 Census DHC File.
 
 - **`results/`**  
   Precomputed outputs and figures.
