@@ -15,13 +15,15 @@ It provides code and precomputed results for computing exact privacy accounting 
   Records the privacy budget allocations \rho_i used in the 2020 Census DHC File.
 
 - **`results/`**
-  Precomputed outputs and figures.
+  Precomputed curve CSV outputs and summary figures.
   - **`results/epsilon_delta_curve/`**
     Epsilon-delta curves characterizing privacy levels for different compositions/paths.
+    - **`results/epsilon_delta_curve/eps_delta_results/`**
+      Raw epsilon-delta curve CSV outputs for all computed path pairs.
   - **`results/trade_off_curve/`**
     Trade-off curves organized using the same rationale.
-  - **`results/logs/`**
-    Computation logs from running the privacy accounting scripts, including detailed output for epsilon-delta curve and trade-off curve computations.
+    - **`results/trade_off_curve/trade_off_results/`**
+      Raw trade-off curve CSV outputs for all computed path pairs.
 
 ## Key result files 
 
@@ -39,8 +41,9 @@ The folder `results/epsilon_delta_curve/` contains PDFs that summarize privacy a
   Characterizes the percentage difference between the privacy level of  
   [\tilde{M}_0, \tilde{M}_0] and the overall privacy level (corresponding to the right panel of Figure 5).
 
+The folder **`results/epsilon_delta_curve/eps_delta_results/`** contains the corresponding precomputed epsilon-delta curve CSV outputs.
+
 ### Trade-off curves
 
-We organize trade-off curves in **`results/trade_off_curve/`** following a similar rationale to the epsilon-delta curve outputs.
-
+We organize trade-off curves in **`results/trade_off_curve/`** following a similar rationale to the epsilon-delta curve outputs. The folder **`results/trade_off_curve/trade_off_results/`** contains the corresponding precomputed trade-off curve CSV outputs.
 
